@@ -1,0 +1,168 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat"
+}
+
+h1 {
+  font-size: 1.5rem;
+  line-height: 1.8;
+  color:gray;
+}
+h2{
+  color:gray;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 2;
+  color:gray;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #FF8F56;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* intro-section */
+#intro .container-fluid {
+  padding: 2% 7% 15%;
+}
+.input-search{
+  height:70%;
+  width:70%;
+  font-size: 0.9rem;
+}
+
+/* Navigation-Bar */
+.navbar-brand {
+  font-family: 'Caveat', cursive;
+  font-size: 3rem;
+  color: #fff;
+}
+
+.nav-item {
+  padding: 12px;
+}
+
+/* style-section */
+.carousel item {
+  padding: 7% 10%;
+}
+
+.style-image {
+  width: 40%;
+  height: 30%;
+  padding:20px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color: #ff8f56;
+  border-radius: 100%;
+}
+
+/* history-section */
+#history {
+  background-color: #fff1a8;
+}
+
+
+
+/* features-section */
+#features {
+  color: gray;
+}
+
+.feature-box {
+  padding: 7px;
+}
+
+.features-h1 {
+  font-size: 1.8rem;
+  padding: 5px 0 50px;
+}
+
+.features-h3 {
+  font-size: 1rem;
+}
+
+.features-icon {
+  color: #ff8f56;
+  font-size: 30px;
+  margin-bottom: 1rem;
+}
+
+.features-icon:hover {
+  color: #fff1a8;
+}
+
+/* magazine-section */
+#magazine {
+padding:3% 10% 10%;
+}
+.magazine-text,.magazine-heading{
+  color:#fff;
+}
+
+.magazine-link {
+  color: #fff;
+}
+
+.magazine-link:hover {
+  color: #fff;
+}
+
+.magazine-subscribe {
+
+}
+
+.input-submit {
+  background-color: #ff8f56;
+  color: #fff;
+  font-size: 0.9rem;
+  padding: 3px;
+  border: none;
+}
+
+.input-text {
+  font-size: 0.9rem;
+  padding: 3px;
+  border: none;
+}
+
+.input-text: hover {
+  color: #fff;
+}
+
+
+/* footer-section */
+.footer-text {
+  font-size: 0.9rem;
+}
+
+.footer-text a {
+  text-decoration: none;
+}
+
+.copyright-text {
+  padding: 2%;
+  font-size: 0.6rem;
+}
+
+a {
+  padding: 8px;
+  color: gray;
+}
